@@ -1,0 +1,12 @@
+[submodule "vendor/textmate"]
+	path = vendor/textmate
+	url = git://github.com/defunkt/textmate.el.git
+[submodule "vendor/enclose"]
+	path = vendor/enclose
+	url = git://github.com/rejeep/enclose.git
+[submodule "vendor/wrap-region"]
+	path = vendor/wrap-region
+	url = git://github.com/rejeep/wrap-region.git
+[submodule "vendor/smart-tab"]
+	path = vendor/smart-tab
+	url = git://github.com/haxney/smart-tab.git
