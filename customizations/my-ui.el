@@ -20,8 +20,10 @@
 (set-variable (quote visible-bell) t nil)
 
 (set-frame-font "Menlo-13")
-(load-theme 'solarized-dark)
+;; (load-theme 'solarized-dark)
 ;; (load-theme 'better-tango-dark)
+;; (load-theme 'solarized)
+(load-theme 'zenburn)
 
 ; colors
 (custom-set-faces

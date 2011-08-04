@@ -194,21 +194,21 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(ansi-color-names-vector ["#212526" "#ff4b4b" "#b4fa70" "#fce94f" "#729fcf" "#ad7fa8" "#8cc4ff" "#eeeeec"])
- '(custom-safe-themes (quote ("538ca36fbe9aed79b0c25c920cc7e5e803f17c6e" "30a309a1ee4f7ef694a3d7aaf6ffe283f69f95c8" "15fb47d2d6174fbc121e60f8910972b7a31fa9ce" "32506acca0fec7e614b57e33479c293ccb094cb6" "1494a5822eb00d2131aae3e8d00ffb8f226cb4e7" "52cff4fb76c719ea2377a24d3735bd0392a7f23f" "13413be5555f02db1898534f146c4eceb5997261" "2dc8cbf44dbc8532764a313374230ca013b35483" "835bfbbdbaae344d72b4e4104c2dbb42a356bf64" "3645b359306b0c7faa20f214fec51b01d8a07943" "fb134a4f65583f30c0daef6c9dbdcdd77abc06cd" "4c678543155096aee21a09e05a7a22b5069b8f6c" "0f961414492755477a573f7be8d6d84b6a73d96a" "170afc082ac58caa1ba045c21bb822df3961eb31" "157c197325b7249946f056ef86617b05811c818f" "e34496468df6d75fa904e90d9d6eb838531fca2b" default))))
+ '(custom-safe-themes (quote ("9cdf9fb94f560902b567b73f65c2ed4e5cfbaafe" "b03af7ef60f7163c67e0984d0a54082d926f74ac" "538ca36fbe9aed79b0c25c920cc7e5e803f17c6e" "30a309a1ee4f7ef694a3d7aaf6ffe283f69f95c8" "15fb47d2d6174fbc121e60f8910972b7a31fa9ce" "32506acca0fec7e614b57e33479c293ccb094cb6" "1494a5822eb00d2131aae3e8d00ffb8f226cb4e7" "52cff4fb76c719ea2377a24d3735bd0392a7f23f" "13413be5555f02db1898534f146c4eceb5997261" "2dc8cbf44dbc8532764a313374230ca013b35483" "835bfbbdbaae344d72b4e4104c2dbb42a356bf64" "3645b359306b0c7faa20f214fec51b01d8a07943" "fb134a4f65583f30c0daef6c9dbdcdd77abc06cd" "4c678543155096aee21a09e05a7a22b5069b8f6c" "0f961414492755477a573f7be8d6d84b6a73d96a" "170afc082ac58caa1ba045c21bb822df3961eb31" "157c197325b7249946f056ef86617b05811c818f" "e34496468df6d75fa904e90d9d6eb838531fca2b" default))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(diff-added ((t (:foreground "#559944"))))
- '(diff-context ((t nil)))
- '(diff-file-header ((((class color) (min-colors 88) (background dark)) (:foreground "RoyalBlue1"))))
- '(diff-function ((t (:foreground "#00bbdd"))))
- '(diff-header ((((class color) (min-colors 88) (background dark)) (:foreground "RoyalBlue1"))))
- '(diff-hunk-header ((t (:foreground "#fbde2d"))))
- '(diff-nonexistent ((t (:inherit diff-file-header :strike-through nil))))
- '(diff-refine-change ((((class color) (min-colors 88) (background dark)) (:background "#182042"))))
- '(diff-removed ((t (:foreground "#de1923"))))
+ '(diff-added ((t (:foreground "#559944"))) t)
+ '(diff-context ((t nil)) t)
+ '(diff-file-header ((((class color) (min-colors 88) (background dark)) (:foreground "RoyalBlue1"))) t)
+ '(diff-function ((t (:foreground "#00bbdd"))) t)
+ '(diff-header ((((class color) (min-colors 88) (background dark)) (:foreground "RoyalBlue1"))) t)
+ '(diff-hunk-header ((t (:foreground "#fbde2d"))) t)
+ '(diff-nonexistent ((t (:inherit diff-file-header :strike-through nil))) t)
+ '(diff-refine-change ((((class color) (min-colors 88) (background dark)) (:background "#182042"))) t)
+ '(diff-removed ((t (:foreground "#de1923"))) t)
  '(flymake-errline ((t :underline "red")))
  '(flymake-warnline ((t :underline "green"))))
 
